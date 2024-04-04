@@ -34,8 +34,10 @@ export function output(res) {
 		console.log(green, pass + "/" + res.length + " tests passed.");
 	} else if (pass >= 1) {
 		console.log(yellow, pass + "/" + res.length + " tests passed.");
+		throw new Error("Some tests failed.");
 	} else {
 		console.log(red, pass + "/" + res.length + " tests passed.");
+		throw new Error("All tests failed.");
 	}
 	console.log(reset);
 }
