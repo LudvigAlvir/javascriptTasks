@@ -1,0 +1,16 @@
+{
+	"name": "javascripttasks",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"test-1": "node tests/assignment-1.test.js",
+		"test-2": "node tests/assignment-2.test.js",
+		"test-3": "node tests/assignment-3.test.js"
+	},
+	"keywords": [],
+	"author": "Ludvig Alvir",
+	"license": "ISC"
+}
